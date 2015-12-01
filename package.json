@@ -1,0 +1,24 @@
+{
+  "name": "tf-diku",
+  "version": "0.1.0",
+  "description": "TinyFugue scripts for Diku muds",
+  "main": "main.tf",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/huntwj/tf-diku.git"
+  },
+  "keywords": [
+    "tf",
+    "diku",
+    "TinyFugue"
+  ],
+  "author": "Wil Hunt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huntwj/tf-diku/issues"
+  },
+  "homepage": "https://github.com/huntwj/tf-diku#readme"
+}
