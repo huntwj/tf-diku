@@ -22,6 +22,11 @@
     /let _container=$[util_getVar("inv.container.main")]%;\
     get %{1} %{2-%{_container}}
 
+/def diku_isSet = \
+    /let _varName=%{1}%;\
+    /let _results=$(/listvar -msimple -s %_varName)%;\
+    /return _results !~ ""
+
 /def diku_inv_test = \
     /echo Testing...%;\
     /let _container=$[util_getVar("inv.container.main")]%;\
