@@ -1,3 +1,2 @@
-; Proof of concept function.
-/def dikuCmd = \
-    'this is a cool diku command.
+/require tf-diku/inventory.tf
+
