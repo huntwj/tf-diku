@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/huntwj/tf-diku/issues"
   },
-  "homepage": "https://github.com/huntwj/tf-diku#readme"
+  "homepage": "https://github.com/huntwj/tf-diku#readme",
+  "dependencies": {
+      "tf-util": "git://github.com/huntwj/tf-util.git"
+  }
 }
