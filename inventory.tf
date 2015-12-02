@@ -4,6 +4,7 @@
 
 /loaded __tf_diku_inventory__
 
+/require alias.tf
 /require tf-util/variables.tf
 
 /alias pc /diku_putContainer %*
