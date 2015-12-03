@@ -1,7 +1,6 @@
 ;;
-;; inventory.tf
+;; tf-diku/inventory.tf
 ;;
-
 /loaded __tf_diku_inventory__
 
 /require alias.tf
