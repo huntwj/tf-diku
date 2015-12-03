@@ -21,10 +21,3 @@
     /let _container=$[util_getVar("inv.container.main")]%;\
     get %{1} %{2-%{_container}}
 
-/def diku_inv_test = \
-    /echo Testing...%;\
-    /let _container=$[util_getVar("inv.container.main")]%;\
-    /echo Container loaded as '%{_container}'
-
-;/diku_inv_test
-
