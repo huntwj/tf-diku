@@ -11,6 +11,7 @@
 /alias pac pc all
 /alias pcc pc all.coin
 
+
 /test util_declareVar("inv.container.main", "pouch")
 
 /def diku_putContainer = \
@@ -20,4 +21,8 @@
 /def diku_getContainer = \
     /let _container=$[util_getVar("inv.container.main")]%;\
     get %{1} %{2-%{_container}}
+
+/def diku_lookInContainer = \
+    /let _container=$[util_getVar("inv.container.main")]%;\
+    look in %{_container}
 
