@@ -22,7 +22,15 @@
     /let _container=$[util_getVar("inv.container.main")]%;\
     get %{1} %{2-%{_container}}
 
+/alias lc /diku_lookInContainer %{*}
 /def diku_lookInContainer = \
     /let _container=$[util_getVar("inv.container.main")]%;\
     look in %{_container}
+
+/alias pack /diku_setPack %{*}
+/def diku_setPack = \
+    /if ({#}) \
+        /util_setVar inv.container.main %{1}%;\
+    /endif%;\
+    /echo Pack is set to '$[util_getVar("inv.container.main")]'
 
