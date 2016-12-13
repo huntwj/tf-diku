@@ -1,6 +1,6 @@
 {
   "name": "tf-diku",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "TinyFugue scripts for Diku muds",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/huntwj/tf-diku#readme",
   "dependencies": {
-      "tf-util": "git://github.com/huntwj/tf-util.git"
+    "tf-util": "git://github.com/huntwj/tf-util.git"
   }
 }
