@@ -14,7 +14,7 @@
     pc all.coin
 
 
-/test util_declareVar("inv.container.main", "pouch")
+/util_declareVar inv.container.main pouch
 
 /def diku_putContainer = \
     /let _container=$[util_getVar("inv.container.main")]%;\

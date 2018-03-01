@@ -1,7 +1,8 @@
 ;; add colour to logs, with encode_attr
 
-;; Antti Pietikäinen (heidel@operamail.com)
+;; Antti Pietikï¿½inen (heidel@operamail.com)
 ;; 2005
+/loaded __tf_diku_colour_log__
 
 /def -ag -Fp4000 -1 -q -hCONFLICT temp_hide_conflict
 /def -i log=\
@@ -30,7 +31,7 @@
 		/echo -aLGBCyellow ######### LOG ENDS ##########%;\
 	/endif%;\
 	/dokey page
-	
+
 
 /def -i log_view_helper=\
 	/result decode_attr({*})
