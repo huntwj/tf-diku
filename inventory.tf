@@ -6,10 +6,12 @@
 /require alias.tf
 /require tf-util/variables.tf
 
-/alias pc /diku_putContainer %*
-/alias gc /diku_getContainer %*
-/alias pac pc all
-/alias pcc pc all.coin
+/alias pc /diku_putContainer %{*}
+/alias gc /diku_getContainer %{*}
+/alias pac \
+    pc all
+/alias pcc \
+    pc all.coin
 
 
 /test util_declareVar("inv.container.main", "pouch")
